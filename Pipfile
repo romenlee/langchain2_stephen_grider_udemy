@@ -1,0 +1,37 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+langchain-openai = "*"
+langchain-community = "*"
+python-dotenv = "*"
+openai = "*"
+tiktoken = "*"
+chromadb = "*"
+pysqlite3-binary = "*"
+pyboxen = "*"
+boto3 = "*"
+botocore = "*"
+celery = "*"
+click = "*"
+flask = "*"
+flask-sqlalchemy = "*"
+flask-cors = "*"
+werkzeug = "*"
+invoke = "*"
+pinecone-client = "*"
+pypdf = "*"
+watchdog = "*"
+uuid = "*"
+langfuse = "*"
+backoff = "*"
+redis = "*"
+colorama = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
