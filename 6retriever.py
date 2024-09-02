@@ -6,9 +6,9 @@ from dotenv import load_dotenv
 load_dotenv()
 # Workaround to fix the error
 # Your system has an unsupported version of sqlite3. Chroma requires sqlite3 >= 3.35.0.
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+# __import__('pysqlite3')
+# import sys
+# sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 chat = ChatOpenAI()
 embeddings = OpenAIEmbeddings()

@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 from langchain_community.vectorstores import Chroma
 # Workaround to fix the error
 # Your system has an unsupported version of sqlite3. Chroma requires sqlite3 >= 3.35.0.
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+# __import__('pysqlite3')
+# import sys
+# sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 load_dotenv()
 

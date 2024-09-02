@@ -16,3 +16,4 @@ venv.bak/
 
 .idea/
 chroma
+Pipfile.lock
